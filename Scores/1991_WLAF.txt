@@ -1,0 +1,54 @@
+Week,Kickoff,Guest,Home,Pts_G,Pts_H
+1,1991-03-23 00:00 CET,London Monarchs,Frankfurt Galaxy,24,11
+1,1991-03-23 00:00 CET,Raleigh-Durham Skyhawks,Sacramento Surge,3,9
+1,1991-03-23 00:00 CET,Montreal Machine,Birmingham Fire,20,5
+1,1991-03-24 00:00 CET,New York/New Jersey Knights,Barcelona Dragons,7,19
+1,1991-03-25 00:00 CET,San Antonio Riders,Orlando Thunder,34,35
+2,1991-03-30 00:00 CET,Sacramento Surge,Birmingham Fire,10,17
+2,1991-03-30 00:00 CET,Raleigh-Durham Skyhawks,Orlando Thunder,20,58
+2,1991-03-31 00:00 CET,New York/New Jersey Knights,London Monarchs,18,22
+2,1991-04-01 00:00 CET,Frankfurt Galaxy,San Antonio Riders,10,3
+2,1991-04-01 00:00 CET,Barcelona Dragons,Montreal Machine,34,10
+3,1991-04-06 00:00 CET,Orlando Thunder,London Monarchs,12,35
+3,1991-04-06 00:00 CET,Barcelona Dragons,Raleigh-Durham Skyhawks,26,14
+3,1991-04-06 00:00 CET,Frankfurt Galaxy,New York/New Jersey Knights,27,17
+3,1991-04-07 00:00 CET,Sacramento Surge,San Antonio Riders,3,10
+3,1991-04-08 00:00 CET,Birmingham Fire,Montreal Machine,10,23
+4,1991-04-13 00:00 CET,Frankfurt Galaxy,Sacramento Surge,10,16
+4,1991-04-13 00:00 CET,New York/New Jersey Knights,Montreal Machine,44,0
+4,1991-04-14 00:00 CET,Orlando Thunder,Barcelona Dragons,13,33
+4,1991-04-15 00:00 CET,San Antonio Riders,Raleigh-Durham Skyhawks,37,15
+4,1991-04-15 00:00 CET,London Monarchs,Birmingham Fire,27,0
+5,1991-04-20 00:00 CET,Montreal Machine,London Monarchs,7,45
+5,1991-04-20 00:00 CET,Raleigh-Durham Skyhawks,Frankfurt Galaxy,28,30
+5,1991-04-20 00:00 CET,Barcelona Dragons,San Antonio Riders,14,22
+5,1991-04-21 00:00 CET,Birmingham Fire,Orlando Thunder,31,6
+5,1991-04-22 00:00 CET,Sacramento Surge,New York/New Jersey Knights,20,28
+6,1991-04-27 00:00 CET,Montreal Machine,Frankfurt Galaxy,7,17
+6,1991-04-27 00:00 CET,Barcelona Dragons,Sacramento Surge,29,20
+6,1991-04-27 00:00 CET,Orlando Thunder,New York/New Jersey Knights,6,42
+6,1991-04-28 00:00 CET,Raleigh-Durham Skyhawks,London Monarchs,10,35
+6,1991-04-29 00:00 CET,San Antonio Riders,Birmingham Fire,12,16
+7,1991-05-04 00:00 CET,Birmingham Fire,Barcelona Dragons,6,11
+7,1991-05-04 00:00 CET,Frankfurt Galaxy,Orlando Thunder,17,14
+7,1991-05-04 00:00 CET,Montreal Machine,Sacramento Surge,26,23
+7,1991-05-05 00:00 CET,New York/New Jersey Knights,Raleigh-Durham Skyhawks,42,6
+7,1991-05-06 00:00 CET,London Monarchs,San Antonio Riders,38,15
+8,1991-05-11 00:00 CET,San Antonio Riders,Barcelona Dragons,7,17
+8,1991-05-11 00:00 CET,London Monarchs,New York/New Jersey Knights,22,7
+8,1991-05-11 00:00 CET,Sacramento Surge,Orlando Thunder,33,45
+8,1991-05-12 00:00 CET,Birmingham Fire,Frankfurt Galaxy,3,10
+8,1991-05-13 00:00 CET,Raleigh-Durham Skyhawks,Montreal Machine,6,15
+9,1991-05-18 00:00 CET,Montreal Machine,San Antonio Riders,10,27
+9,1991-05-18 00:00 CET,London Monarchs,Sacramento Surge,45,21
+9,1991-05-19 00:00 CET,Frankfurt Galaxy,Barcelona Dragons,10,3
+9,1991-05-20 00:00 CET,Orlando Thunder,Raleigh-Durham Skyhawks,20,14
+9,1991-05-20 00:00 CET,New York/New Jersey Knights,Birmingham Fire,14,24
+10,1991-05-25 00:00 CET,Sacramento Surge,Frankfurt Galaxy,24,13
+10,1991-05-25 00:00 CET,Birmingham Fire,Raleigh-Durham Skyhawks,28,7
+10,1991-05-25 00:00 CET,San Antonio Riders,New York/New Jersey Knights,9,38
+10,1991-05-27 00:00 CET,Barcelona Dragons,London Monarchs,20,17
+10,1991-05-27 00:00 CET,Orlando Thunder,Montreal Machine,33,27
+98,1991-06-01 00:00 CET,Barcelona Dragons,Birmingham Fire,10,3
+98,1991-06-02 00:00 CET,London Monarchs,New York/New Jersey Knights,42,26
+99,1991-06-09 00:00 CET,London Monarchs,Barcelona Dragons,21,0

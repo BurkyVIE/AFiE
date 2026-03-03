@@ -1,0 +1,54 @@
+Week,Kickoff,Guest,Home,Pts_G,Pts_H
+1,1992-03-21 00:00 CET,Frankfurt Galaxy,Barcelona Dragons,17,0
+1,1992-03-21 00:00 CET,Birmingham Fire,Sacramento Surge,6,20
+1,1992-03-22 00:00 CET,Ohio Glory,Orlando Thunder,9,13
+1,1992-03-22 00:00 CET,New York/New Jersey Knights,London Monarchs,20,26
+1,1992-03-22 00:00 CET,Montreal Machine,San Antonio Riders,16,17
+2,1992-03-28 00:00 CET,New York/New Jersey Knights,Barcelona Dragons,14,15
+2,1992-03-28 00:00 CET,Frankfurt Galaxy,London Monarchs,31,28
+2,1992-03-28 00:00 CET,Orlando Thunder,Montreal Machine,29,31
+2,1992-03-29 00:00 CET,San Antonio Riders,Birmingham Fire,10,17
+2,1992-03-29 00:00 CET,Sacramento Surge,Ohio Glory,17,6
+3,1992-04-04 00:00 CET,London Monarchs,Barcelona Dragons,7,13
+3,1992-04-04 00:00 CET,Montreal Machine,Sacramento Surge,7,14
+3,1992-04-04 00:00 CET,San Antonio Riders,New York/New Jersey Knights,9,3
+3,1992-04-05 00:00 CET,Birmingham Fire,Frankfurt Galaxy,17,7
+3,1992-04-05 00:00 CET,Orlando Thunder,Ohio Glory,28,3
+4,1992-04-11 00:00 CET,Barcelona Dragons,Frankfurt Galaxy,20,17
+4,1992-04-11 00:00 CET,Birmingham Fire,London Monarchs,17,17
+4,1992-04-11 00:00 CET,San Antonio Riders,Sacramento Surge,23,20
+4,1992-04-12 00:00 CET,New York/New Jersey Knights,Orlando Thunder,21,39
+4,1992-04-12 00:00 CET,Ohio Glory,Montreal Machine,20,31
+5,1992-04-18 00:00 CET,Barcelona Dragons,London Monarchs,9,0
+5,1992-04-18 00:00 CET,Sacramento Surge,Birmingham Fire,14,28
+5,1992-04-18 00:00 CET,Frankfurt Galaxy,New York/New Jersey Knights,21,24
+5,1992-04-19 00:00 CET,Ohio Glory,San Antonio Riders,0,17
+5,1992-04-19 00:00 CET,Montreal Machine,Orlando Thunder,8,16
+6,1992-04-25 00:00 CET,Orlando Thunder,Frankfurt Galaxy,38,0
+6,1992-04-25 00:00 CET,Birmingham Fire,San Antonio Riders,14,17
+6,1992-04-26 00:00 CET,Ohio Glory,Barcelona Dragons,10,20
+6,1992-04-26 00:00 CET,Sacramento Surge,London Monarchs,31,26
+6,1992-04-26 00:00 CET,New York/New Jersey Knights,Montreal Machine,34,11
+7,1992-05-02 00:00 CET,Barcelona Dragons,Birmingham Fire,17,19
+7,1992-05-02 00:00 CET,Frankfurt Galaxy,Ohio Glory,17,20
+7,1992-05-03 00:00 CET,Orlando Thunder,San Antonio Riders,39,21
+7,1992-05-03 00:00 CET,London Monarchs,New York/New Jersey Knights,13,41
+7,1992-05-03 00:00 CET,Sacramento Surge,Montreal Machine,35,21
+8,1992-05-09 00:00 CET,Frankfurt Galaxy,Sacramento Surge,7,51
+8,1992-05-09 00:00 CET,London Monarchs,Orlando Thunder,0,9
+8,1992-05-10 00:00 CET,New York/New Jersey Knights,Ohio Glory,39,33
+8,1992-05-10 00:00 CET,San Antonio Riders,Barcelona Dragons,17,0
+8,1992-05-10 00:00 CET,Montreal Machine,Birmingham Fire,16,23
+9,1992-05-16 00:00 CET,Ohio Glory,Sacramento Surge,7,21
+9,1992-05-16 00:00 CET,Barcelona Dragons,New York/New Jersey Knights,0,47
+9,1992-05-17 00:00 CET,Orlando Thunder,Birmingham Fire,23,24
+9,1992-05-17 00:00 CET,London Monarchs,Montreal Machine,45,13
+9,1992-05-17 00:00 CET,San Antonio Riders,Frankfurt Galaxy,43,14
+10,1992-05-23 00:00 CET,London Monarchs,Frankfurt Galaxy,16,19
+10,1992-05-23 00:00 CET,Montreal Machine,New York/New Jersey Knights,21,41
+10,1992-05-23 00:00 CET,Barcelona Dragons,Orlando Thunder,10,13
+10,1992-05-24 00:00 CET,Sacramento Surge,San Antonio Riders,27,21
+10,1992-05-24 00:00 CET,Birmingham Fire,Ohio Glory,27,24
+98,1992-05-30 00:00 CET,Orlando Thunder,Birmingham Fire,45,7
+98,1992-05-31 00:00 CET,Barcelona Dragons,Sacramento Surge,17,15
+99,1992-06-06 00:00 CET,Sacramento Surge,Orlando Thunder,21,17

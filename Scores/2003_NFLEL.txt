@@ -1,0 +1,34 @@
+Week,Kickoff,Guest,Home,Pts_G,Pts_H
+1,2003-04-05 00:00 CET,Amsterdam Admirals,Rhine Fire,17,15
+1,2003-04-05 00:00 CET,FC Barcelona Dragons,Frankfurt Galaxy,13,15
+1,2003-04-06 00:00 CET,Berlin Thunder,Scottisch Claymores,31,62
+2,2003-04-12 00:00 CET,FC Barcelona Dragons,Amsterdam Admirals,10,7
+2,2003-04-13 00:00 CET,Frankfurt Galaxy,Scottisch Claymores,17,13
+2,2003-04-13 00:00 CET,Rhine Fire,Berlin Thunder,21,10
+3,2003-04-19 00:00 CET,Amsterdam Admirals,FC Barcelona Dragons,17,35
+3,2003-04-19 00:00 CET,Berlin Thunder,Frankfurt Galaxy,21,41
+3,2003-04-19 00:00 CET,Scottisch Claymores,Rhine Fire,17,34
+4,2003-04-26 00:00 CET,Frankfurt Galaxy,Amsterdam Admirals,16,20
+4,2003-04-26 00:00 CET,Rhine Fire,FC Barcelona Dragons,3,11
+4,2003-04-27 00:00 CET,Scottisch Claymores,Berlin Thunder,34,17
+5,2003-05-03 00:00 CET,Frankfurt Galaxy,Rhine Fire,7,14
+5,2003-05-04 00:00 CET,Amsterdam Admirals,Berlin Thunder,30,34
+5,2003-05-04 00:00 CET,FC Barcelona Dragons,Scottisch Claymores,17,10
+6,2003-05-10 00:00 CET,Berlin Thunder,FC Barcelona Dragons,24,14
+6,2003-05-10 00:00 CET,Scottisch Claymores,Frankfurt Galaxy,27,33
+6,2003-05-10 00:00 CET,Rhine Fire,Amsterdam Admirals,34,27
+7,2003-05-17 00:00 CET,Amsterdam Admirals,Frankfurt Galaxy,27,24
+7,2003-05-17 00:00 CET,FC Barcelona Dragons,Berlin Thunder,23,20
+7,2003-05-18 00:00 CET,Rhine Fire,Scottisch Claymores,0,33
+8,2003-05-24 00:00 CET,Frankfurt Galaxy,FC Barcelona Dragons,47,13
+8,2003-05-24 00:00 CET,Scottisch Claymores,Amsterdam Admirals,31,20
+8,2003-05-25 00:00 CET,Berlin Thunder,Rhine Fire,21,28
+9,2003-05-31 00:00 CET,Berlin Thunder,Amsterdam Admirals,43,51
+9,2003-05-31 00:00 CET,Scottisch Claymores,FC Barcelona Dragons,45,7
+9,2003-06-01 00:00 CET,Rhine Fire,Frankfurt Galaxy,7,38
+10,2003-06-07 00:00 CET,Frankfurt Galaxy,Berlin Thunder,14,27
+10,2003-06-07 00:00 CET,FC Barcelona Dragons,Rhine Fire,7,33
+10,2003-06-08 00:00 CET,Amsterdam Admirals,Scottisch Claymores,14,31
+99,2003-06-14 00:00 CET,Rhine Fire,Frankfurt Galaxy,35,35
+
+

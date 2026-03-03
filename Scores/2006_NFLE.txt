@@ -1,0 +1,34 @@
+Week,Kickoff,Guest,Home,Pts_G,Pts_H
+1,2006-03-18 00:00 CET,Berlin Thunder,Amsterdam Admirals,33,29
+1,2006-03-18 00:00 CET,Cologne Centurions,Hamburg Sea Devils,14,10
+1,2006-03-18 00:00 CET,Frankfurt Galaxy,Rhine Fire,6,10
+2,2006-03-25 00:00 CET,Hamburg Sea Devils,Frankfurt Galaxy,14,31
+2,2006-03-25 00:00 CET,Rhine Fire,Berlin Thunder,22,0
+2,2006-03-26 00:00 CET,Amsterdam Admirals,Cologne Centurions,20,15
+3,2006-04-01 00:00 CET,Berlin Thunder,Hamburg Sea Devils,17,17
+3,2006-04-01 00:00 CET,Frankfurt Galaxy,Amsterdam Admirals,20,3
+3,2006-04-02 00:00 CET,Rhine Fire,Cologne Centurions,20,10
+4,2006-04-08 00:00 CET,Amsterdam Admirals,Berlin Thunder,38,31
+4,2006-04-08 00:00 CET,Cologne Centurions,Frankfurt Galaxy,14,21
+4,2006-04-08 00:00 CET,Hamburg Sea Devils,Rhine Fire,21,31
+5,2006-04-15 00:00 CET,Rhine Fire,Amsterdam Admirals,31,35
+5,2006-04-15 00:00 CET,Frankfurt Galaxy,Hamburg Sea Devils,17,13
+5,2006-04-17 00:00 CET,Cologne Centurions,Berlin Thunder,13,24
+6,2006-04-22 00:00 CET,Amsterdam Admirals,Rhine Fire,30,21
+6,2006-04-22 00:00 CET,Berlin Thunder,Frankfurt Galaxy,17,18
+6,2006-04-23 00:00 CET,Hamburg Sea Devils,Cologne Centurions,17,20
+7,2006-04-29 00:00 CET,Amsterdam Admirals,Hamburg Sea Devils,18,17
+7,2006-04-29 00:00 CET,Berlin Thunder,Rhine Fire,24,27
+7,2006-04-30 00:00 CET,Frankfurt Galaxy,Cologne Centurions,17,10
+8,2006-05-06 00:00 CET,Rhine Fire,Frankfurt Galaxy,14,16
+8,2006-05-07 00:00 CET,Cologne Centurions,Amsterdam Admirals,20,13
+8,2006-05-07 00:00 CET,Hamburg Sea Devils,Berlin Thunder,38,14
+9,2006-05-14 00:00 CET,Amsterdam Admirals,Frankfurt Galaxy,17,12
+9,2006-05-14 00:00 CET,Berlin Thunder,Cologne Centurions,7,25
+9,2006-05-14 00:00 CET,Rhine Fire,Hamburg Sea Devils,10,13
+10,2006-05-20 00:00 CET,Frankfurt Galaxy,Berlin Thunder,14,13
+10,2006-05-20 00:00 CET,Hamburg Sea Devils,Amsterdam Admirals,34,21
+10,2006-05-20 00:00 CET,Cologne Centurions,Rhine Fire,10,21
+99,2006-05-27 00:00 CET,Frankfurt Galaxy,Amsterdam Admirals,22,7
+
+
