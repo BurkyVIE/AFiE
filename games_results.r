@@ -17,7 +17,15 @@ games <- data_raw |>
   nest(Homedata = Franchise:Division) |>
   rowwise() |> # rowwise wg Season und Week
   ungroup() |> 
-  arrange(Season, Week, !is.na(Kickoff), Kickoff) #arranging by the logical vector !is.na(wt) of TRUE/FALSE (= F < T)
+  rename(Wk = Week) |> 
+  arrange(Season, Wk, !is.na(Kickoff), Kickoff) #arranging by the logical vector !is.na(wt) of TRUE/FALSE (= F < T)
+
+games <- games |>
+  mutate(Week = case_when(Wk < 20 ~ paste0("Week_", sprintf("%02d", Wk)),
+                          Wk == 97 ~ "Wildcard",
+                          Wk == 98 ~ "Playoff",
+                          Wk == 99 ~ "Final")) |> 
+  relocate(Week, .after = "Wk")  
 
 # RESPONSE ----
 cat("\033[1;36m..AFiE >\033[0m  ⤷ object \033[33mgames\033[0m generated \033[1;92m✔\033[0m\n")
@@ -32,11 +40,11 @@ results <- bind_rows(
                             PF == PA ~ "T",
                             TRUE ~ NA_character_)) |> 
   relocate(Result, Home, .after = "PA") |> 
-  arrange(Season, Week, !is.na(Kickoff), Kickoff) #arranging by the logical vector !is.na(wt) of TRUE/FALSE (= F < T)
+  arrange(Season, Wk, !is.na(Kickoff), Kickoff) #arranging by the logical vector !is.na(wt) of TRUE/FALSE (= F < T)
 
 ### 2023 season Leipzig Kings folded after week 5 - games @/vs Cologne Centurions score 16-16 counted as W for Cologne
-results <- rows_update(results, tibble(Season = 2023, Team = "Cologne Centurions", Week = c(7, 12), Result = "W"), by = c("Season", "Team", "Week"))
-results <- rows_update(results, tibble(Season = 2023, Team = "Leipzig Kings", Week = c(7, 12), Result = "L"), by = c("Season", "Team", "Week"))
+results <- rows_update(results, tibble(Season = 2023, Team = "Cologne Centurions", Wk = c(7, 12), Result = "W"), by = c("Season", "Team", "Wk"))
+results <- rows_update(results, tibble(Season = 2023, Team = "Leipzig Kings", Wk = c(7, 12), Result = "L"), by = c("Season", "Team", "Wk"))
 ### Following the Leipzig Kings folding in week 12 Prague gave the home right to Fehervar, who otherwise may have lost two home games
 ### -> this only applies to the location the game was held, for statistics reasons nothing changed
 
