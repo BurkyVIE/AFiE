@@ -64,7 +64,7 @@ comb <- select(teaminfo, Season, League) |>
 standings <- mutate(comb, data = comb |> map2(.x = Season, .y = League, .f = ~standings_fn(.x, .y))) |>
   unnest_longer(data) |>
   unpack(data) #|>
-  # group_split(Season)
+  # group_split(Season, League)
   
 # CLEAN UP ----
 rm(comb)
