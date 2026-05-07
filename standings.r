@@ -61,8 +61,13 @@ comb <- select(teaminfo, Season, League) |>
   head(-2) # 2026 AFLE & EFA Season
 
 
-mutate(comb, data = comb |> map2(.x = Season, .y = League, .f = ~standings_fn(.x, .y))) |>
+standings <- mutate(comb, data = comb |> map2(.x = Season, .y = League, .f = ~standings_fn(.x, .y))) |>
   unnest_longer(data) |>
   unpack(data) #|>
   # group_split(Season)
   
+# CLEAN UP ----
+rm(comb)
+
+# RESPONSE ----
+cat("\033[1;36m..AFiE >\033[0m  ⤷ object \033[33mstandings\033[0m generated (NOT 2026) \033[1;92m✔\033[0m\n")
