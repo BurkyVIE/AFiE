@@ -31,8 +31,7 @@ standings_fn <- function(season, league){
   
   # List of Temas with identical Pct > H2H
   h2h <- tab1 |>
-    group_by(Pct) |>
-    summarise(Ts = n(), Teams = list(Team)) |>
+    summarise(Ts = n(), Teams = list(Team), .by = Pct) |>
     filter(Ts > 1) |>
     pull(Teams)
   
