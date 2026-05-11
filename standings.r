@@ -29,7 +29,7 @@ standings_fn <- function(season, league){
   # Standings 1st iteration
   tab1 <- make_stand(set)
   
-  # List of Temas with identical Pct > H2H
+  # List of Temas with identical Pct -> H2H
   h2h <- tab1 |>
     summarise(Ts = n(), Teams = list(Team), .by = Pct) |>
     filter(Ts > 1) |>
@@ -40,9 +40,9 @@ standings_fn <- function(season, league){
     bind_rows()
   
   # Bind 1st and 2nd iteration
-  left_join(select(tab1, -Rank), select(tab2, Team, h2h = Rank), by = "Team") |> 
+  left_join(select(tab1, -Rank), select(tab2, Team, H2H = Rank), by = "Team") |> 
     mutate(PDiff = PF - PA) |> 
-    arrange(desc(Pct), h2h, desc(PDiff)) -> tab
+    arrange(desc(Pct), H2H, desc(PDiff)) -> tab
     
   # Clean up
   rm(set, tab1, h2h, tab2)
