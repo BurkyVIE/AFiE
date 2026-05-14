@@ -251,7 +251,7 @@ tribble(~Location, ~Lat, ~Long, ~Season,
 ### Claymores ----
 "Claymores",
 tribble(~Team, ~Season,
-        "Scottisch Claymores", 1995L:2004L),
+        "Scottish Claymores", 1995L:2004L),
 tribble(~League, ~Season,
         "WLAF", 1995L:1997L,
         "NFLEL", 1998L:2004L),
