@@ -47,4 +47,4 @@ Week,Kickoff,Guest,Home,Pts_G,Pts_H
 14,2026-08-22 18:00 CET,Firenze Red Lions,Vienna Vikings,,
 14,2026-08-23 13:00 CET,Alpine Rams,Paris Lights,,
 14,2026-08-23 16:10 CET,Rhein Fire,London Warriors,,
-99,2026-09-06 00:00 CET,TBD,TBD,,
+99,2026-09-06 00:00 CET,Finalist,Finalist,,
