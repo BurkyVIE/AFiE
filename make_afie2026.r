@@ -22,4 +22,25 @@ afie_data_2026 <- data_raw |>
             Score_Gast = Pts_G,
             Score_Heim = Pts_H)
 
+# SPEICHERN der rds ins afie2026 Projektverzeichnis ----
+
 saveRDS(afie_data_2026, "afie2026/afie_data_2026.rds")
+
+# PINS Lösung ----
+
+# library(pins)
+# library(Microsoft365R)
+# library(pins)
+# library(tidyverse)
+# 
+# # 1. Daten definieren (dein spiele_data-Tribble)
+# # Erfogt ja schon oben
+# 
+# # 2. Verbindung zum OneDrive-Board herstellen
+# board <- board_ms365(
+#   drive = get_personal_onedrive(),
+#   path = "shiny_pins"
+# )
+# 
+# # 3. Den Datensatz hochladen (pinnen)
+# board %>% pin_write(afie_data_2026, name = "afie_data_2026", type = "rds")
