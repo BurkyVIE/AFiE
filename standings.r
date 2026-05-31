@@ -56,8 +56,8 @@ standings_fn <- function(season, league){
 comb <- select(teaminfo, Season, League) |>
   unique() |>
   arrange(Season) |>
-  filter(!(Season %in% 1991:1992)) |> # 1991 & 1992 Season
-  filter(League != "AFLE") # 2026 AFLE Season
+  filter(!(Season %in% 1991:1992)) #|> # 1991 & 1992 Season
+  # filter(League != "AFLE") # 2026 AFLE Season
 
 
 standings <- mutate(comb, data = comb |> map2(.x = Season, .y = League, .f = ~standings_fn(.x, .y))) |>
@@ -69,4 +69,4 @@ standings <- mutate(comb, data = comb |> map2(.x = Season, .y = League, .f = ~st
 rm(comb)
 
 # RESPONSE ----
-cat("\033[1;36m..AFiE >\033[0m  ⤷ object \033[33mstandings\033[0m generated (NOT AFLE 2026) \033[1;92m✔\033[0m\n")
+cat("\033[1;36m..AFiE >\033[0m  ⤷ object \033[33mstandings\033[0m generated \033[1;92m✔\033[0m\n")
