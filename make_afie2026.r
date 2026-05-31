@@ -1,5 +1,16 @@
+# LIBRARIES ----
 library(tidyverse)
 
+# SOURCEN ----
+source("standings.r")
+
+# DATA ----
+## afle_conf_2026 ----
+afle_conf_2026 <- teaminfo |>
+  filter(Season == 2026, League == "AFLE") |>
+  select(Team, Conference)
+
+## afie_data_2026 ----
 afie_data_2026 <- data_raw |>
   filter(Season == 2026)|>
   transmute(Liga = str_extract(file, "AFLE|EFA"), Data) |>
@@ -22,25 +33,12 @@ afie_data_2026 <- data_raw |>
             Score_Gast = Pts_G,
             Score_Heim = Pts_H)
 
-# SPEICHERN der rds ins afie2026 Projektverzeichnis ----
-
+# SAVE RDS-Files to afie2026 folder ----
+saveRDS(afle_conf_2026, "afie2026/afle_conf_2026.rds")
 saveRDS(afie_data_2026, "afie2026/afie_data_2026.rds")
 
-# PINS Lösung ----
+# CLEAN UP ----
+rm(afle_conf_2026, afie_data_2026)
 
-# library(pins)
-# library(Microsoft365R)
-# library(pins)
-# library(tidyverse)
-# 
-# # 1. Daten definieren (dein spiele_data-Tribble)
-# # Erfogt ja schon oben
-# 
-# # 2. Verbindung zum OneDrive-Board herstellen
-# board <- board_ms365(
-#   drive = get_personal_onedrive(),
-#   path = "shiny_pins"
-# )
-# 
-# # 3. Den Datensatz hochladen (pinnen)
-# board %>% pin_write(afie_data_2026, name = "afie_data_2026", type = "rds")
+# RESPONSE ----
+cat("\033[1;36m..AFiE >\033[0m rds-files for \033[33mshiny-app (afie2026)\033[0m generated \033[1;92m✔\033[0m\n")
