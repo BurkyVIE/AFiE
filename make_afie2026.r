@@ -34,8 +34,21 @@ afie_data_2026 <- data_raw |>
             Score_Heim = Pts_H)
 
 # SAVE RDS-Files to afie2026 folder ----
-saveRDS(afle_conf_2026, "afie2026/afle_conf_2026.rds")
-saveRDS(afie_data_2026, "afie2026/afie_data_2026.rds")
+# saveRDS(afle_conf_2026, "afie2026/afle_conf_2026.rds")
+# saveRDS(afie_data_2026, "afie2026/afie_data_2026.rds")
+
+# SAVE TXT-Files to afie2026 folder (Dropbox)
+write.table(afle_conf_2026, 
+            file = "C:/Users/thoma/Dropbox/afie2026/afle_conf_2026.txt", 
+            sep = ";", 
+            row.names = FALSE, 
+            fileEncoding = "UTF-8")
+
+write.table(afie_data_2026, 
+            file = "C:/Users/thoma/Dropbox/afie2026/afie_data_2026.txt", 
+            sep = ";", 
+            row.names = FALSE, 
+            fileEncoding = "UTF-8")
 
 # CLEAN UP ----
 rm(afle_conf_2026, afie_data_2026)
