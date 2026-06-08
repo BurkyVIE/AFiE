@@ -8,7 +8,7 @@ Week,Kickoff,Guest,Home,Pts_G,Pts_H
 3,2026-06-06 13:00 CET,Panthers Wroclaw,Paris Lights,22,14
 3,2026-06-06 16:10 CET,Berlin Thunder,Firenze Red Lions,45,12
 3,2026-06-06 16:45 CET,Rhein Fire,Vienna Vikings,10,24
-3,2026-06-07 15:00 CET,Alpine Rams,London Warriors,,
+3,2026-06-07 15:00 CET,Alpine Rams,London Warriors,23,20
 4,2026-06-13 18:00 CET,Paris Lights,Rhein Fire,,
 4,2026-06-13 18:00 CET,Alpine Rams,Vienna Vikings,,
 4,2026-06-14 15:00 CET,Firenze Red Lions,London Warriors,,
