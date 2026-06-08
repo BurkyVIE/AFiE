@@ -39,13 +39,13 @@ afie_data_2026 <- data_raw |>
 
 # SAVE TXT-Files to afie2026 folder (Dropbox)
 write.table(afle_conf_2026, 
-            file = "C:/Users/thoma/Dropbox/afie2026/afle_conf_2026.txt", 
+            file = "C:/Users/thoma/Dropbox/shiny_container/afle_conf_2026.txt", 
             sep = ";", 
             row.names = FALSE, 
             fileEncoding = "UTF-8")
 
 write.table(afie_data_2026, 
-            file = "C:/Users/thoma/Dropbox/afie2026/afie_data_2026.txt", 
+            file = "C:/Users/thoma/Dropbox/shiny_container/afie_data_2026.txt", 
             sep = ";", 
             row.names = FALSE, 
             fileEncoding = "UTF-8")
