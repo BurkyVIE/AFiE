@@ -40,9 +40,13 @@ standings_fn <- function(season, league){
     bind_rows()
   
   # Bind 1st and 2nd iteration
-  left_join(select(tab1, -Rank), select(tab2, Team, H2H = Rank), by = "Team") |> 
+  tab <- if(length(h2h) == 0) # is there any h2h
+    add_column(select(tab1, -Rank), H2H = NA_real_) else
+    left_join(select(tab1, -Rank), select(tab2, Team, H2H = Rank), by = "Team")
+  
+  tab <- tab |> 
     mutate(PDiff = PF - PA) |> 
-    arrange(desc(Pct), H2H, desc(PDiff)) -> tab
+    arrange(desc(Pct), H2H, desc(PDiff))
     
   # Clean up
   rm(set, tab1, h2h, tab2)
@@ -55,9 +59,8 @@ standings_fn <- function(season, league){
 # all season leage combos
 comb <- select(teaminfo, Season, League) |>
   unique() |>
-  arrange(Season) |>
-  filter(!(Season %in% 1991:1992)) #|> # 1991 & 1992 Season
-  # filter(League != "AFLE") # 2026 AFLE Season
+  arrange(Season) #|>
+  # filter(!(Season %in% 1991:1992)) #|> # 1991 & 1992 Season (world LEague) excl non-european teams
 
 
 standings <- mutate(comb, data = comb |> map2(.x = Season, .y = League, .f = ~standings_fn(.x, .y))) |>
