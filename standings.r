@@ -14,13 +14,10 @@ standings_fn <- function(season, league){
            League == league,
            Wk < 20)
   
-  make_stand <- function(data, Teams = NULL)
-
-    {
-  
+  make_stand <- function(data, Teams = NULL){
     if(!is.null(Teams)) data <- filter(data, Team %in% Teams, Opponent %in% Teams)
-      data |> group_by(Team) |> 
-          summarise(Gs = n(), PF = sum(PF), PA = sum(PA), W = sum(Result == "W"), L = sum(Result == "L"), T = sum(Result == "T")) |> 
+    data |>
+      summarise(.by = Team, Gs = n(), PF = sum(PF), PA = sum(PA), W = sum(Result == "W"), L = sum(Result == "L"), T = sum(Result == "T")) |> 
       mutate(Pct = (W + .5*T) / Gs) |> 
       arrange(desc(Pct), desc(PF - PA)) |> 
       mutate(Rank = rank(desc(Pct), ties.method = "average"))
@@ -41,7 +38,7 @@ standings_fn <- function(season, league){
   
   # Bind 1st and 2nd iteration
   tab <- if(length(h2h) == 0) # is there any h2h
-    add_column(select(tab1, -Rank), H2H = NA_real_) else
+    add_column(select(tab1, -Rank), H2H = NA_real_) else 
     left_join(select(tab1, -Rank), select(tab2, Team, H2H = Rank), by = "Team")
   
   tab <- tab |> 
@@ -60,8 +57,7 @@ standings_fn <- function(season, league){
 comb <- select(teaminfo, Season, League) |>
   unique() |>
   arrange(Season) #|>
-  # filter(!(Season %in% 1991:1992)) #|> # 1991 & 1992 Season (world LEague) excl non-european teams
-
+  # filter(!(Season %in% 1991:1992)) # 1991 & 1992 Season (World League) excl non-european teams
 
 standings <- mutate(comb, data = comb |> map2(.x = Season, .y = League, .f = ~standings_fn(.x, .y))) |>
   unnest_longer(data) |>
@@ -69,7 +65,7 @@ standings <- mutate(comb, data = comb |> map2(.x = Season, .y = League, .f = ~st
   # group_split(Season, League)
   
 # CLEAN UP ----
-rm(comb)
+rm(comb, standings_fn)
 
 # RESPONSE ----
 cat("\033[1;36m..AFiE >\033[0m  ⤷ object \033[33mstandings\033[0m generated \033[1;92m✔\033[0m\n")
