@@ -15,15 +15,16 @@ import <- function(df) {
                                                        Pts_H = col_integer(),
                                                        Pts_G = col_integer())) |>
                         mutate(Kickoff = as.POSIXct(Kickoff)))) |> 
-    relocate(Season)
+    relocate(Season, League)
   
     return(dat)
 }
 
 ## DATA ----
-data_raw <- dir(pattern = "\\d{4}.*_[A-z]{3,5}\\.txt", recursive = TRUE) |> 
+data_raw <- dir(pattern = "\\d{4}.*_[A-Z]{3,5}\\.txt", recursive = TRUE) |> 
   enframe(name = NULL, value = "file") |>
-  mutate(Season = as.integer(str_extract(file, "\\d{4}"))) |> 
+  mutate(Season = as.integer(str_extract(file, "\\d{4}")),
+         League = str_extract(file, "[A-Z]{3,5}")) |> 
   import()
 
 # RESPONSE ----

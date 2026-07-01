@@ -9,7 +9,6 @@ standings_fn <- function(season, league){
 
   # Set for calculation
   set <- results |> 
-    unnest(Teamdata) |> 
     filter(Season == season,
            League == league,
            Wk < 20)

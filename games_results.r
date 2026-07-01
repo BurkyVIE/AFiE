@@ -11,9 +11,9 @@ games <- data_raw |>
   select(-file) |> 
   unnest_longer(Data) |> # full list of game data
   unpack(Data) |> 
-  left_join(teaminfo, by = c("Guest" = "Team", "Season")) |> # enrich team info
+  left_join(teaminfo, by = c("Guest" = "Team", "Season", "League")) |> # enrich team info
   nest(Guestdata = Franchise:Division) |> 
-  left_join(teaminfo, by = c("Home" = "Team", "Season")) |> 
+  left_join(teaminfo, by = c("Home" = "Team", "Season", "League")) |> 
   nest(Homedata = Franchise:Division) |>
   rowwise() |> # rowwise wg Season und Week
   ungroup() |> 
