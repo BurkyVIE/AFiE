@@ -42,7 +42,7 @@ results <- bind_rows(
   relocate(Result, Home, .after = "PA") |> 
   arrange(Season, !is.na(Kickoff), Kickoff) #arranging by the logical vector !is.na(wt) of TRUE/FALSE (= F < T)
 
-### 2023 season Leipzig Kings folded after week 5 - games @/vs Cologne Centurions score 16-16 counted as W for Cologne
+### 2023 season Leipzig Kings folded after week 5 - games @/vs Cologne Centurions scored 16-16 count as W for Cologne
 results <- rows_update(results, tibble(Season = 2023, Team = "Cologne Centurions", Wk = c(7, 12), Result = "W"), by = c("Season", "Team", "Wk"))
 results <- rows_update(results, tibble(Season = 2023, Team = "Leipzig Kings", Wk = c(7, 12), Result = "L"), by = c("Season", "Team", "Wk"))
 ### Following the Leipzig Kings folding in week 12 Prague gave the home right to Fehervar, who otherwise may have lost two home games
