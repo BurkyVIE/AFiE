@@ -23,7 +23,7 @@ make_stand <- function(data, Teams = NULL) {
 # Standings 1st iteration
 tab1 <- make_stand(set)
 
-# List of Temas with identical Pct -> H2H
+# List of Teams with identical Pct -> H2H
 h2h <- tab1 |>
   summarise(Ts = n(), Teams = list(Team), .by = Pct) |>
   filter(Ts > 1) |>
