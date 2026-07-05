@@ -15,8 +15,9 @@ Week,Kickoff,Guest,Home,Pts_G,Pts_H
 6,2026-06-21 16:00 CET,Prague Lions,Frankfurt Galaxy,18,31
 7,2026-06-27 18:00 CET,Prague Lions,Raiders Tirol,45,44
 7,2026-06-28 13:00 CET,Nordic Storm,Munich Ravens,34,37
-8,2026-07-04 18:00 CET,Munich Ravens,Raiders Tirol,,
-8,2026-07-05 16:00 CET,Frankfurt Galaxy,Paris Musketeers,,
+8,2026-07-04 18:00 CET,Munich Ravens,Raiders Tirol,32,24
+8,2026-07-05 16:00 CET,Frankfurt Galaxy,Paris Musketeers,31,24
+#
 9,2026-07-11 16:00 CET,Paris Musketeers,Prague Lions,,
 9,2026-07-11 18:00 CET,Nordic Storm,Raiders Tirol,,
 9,2026-07-12 13:00 CET,Munich Ravens,Frankfurt Galaxy,,
