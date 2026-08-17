@@ -29,7 +29,7 @@ Week,Kickoff,Guest,Home,Pts_G,Pts_H
 13,2026-08-08 18:00 CET,Munich Ravens,Nordic Storm,7,55
 13,2026-08-09 13:00 CET,Frankfurt Galaxy,Prague Lions,37,34
 13,2026-08-09 16:00 CET,Paris Musketeers,Raiders Tirol,33,12
+98,2026-08-15 18:00 CET,Frankfurt Galaxy,Munich Ravens,33,52
+98,2026-08-16 15:00 CET,Paris Musketeers,Nordic Storm,6,45
 #
-98,2026-08-15 18:00 CET,Frankfurt Galaxy,Munich Ravens,,
-98,2026-08-16 15:00 CET,Paris Musketeers,Nordic Storm,,
-99,2026-08-29 18:00 CET,Finalist,Finalist,,
+99,2026-08-29 18:00 CET,Nordic Storm,Munich Ravens,,
