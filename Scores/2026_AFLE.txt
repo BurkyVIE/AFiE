@@ -43,11 +43,10 @@ Week,Kickoff,Guest,Home,Pts_G,Pts_H
 13,2026-08-15 18:00 CET,Vienna Vikings,Alpine Rams,47,24
 13,2026-08-16 15:00 CET,London Warriors,Panthers Wroclaw,0,41
 13,2026-08-16 16:40 CET,Rhein Fire,Firenze Red Lions,66,14
-#
-14,2026-08-22 15:00 CET,Panthers Wroclaw,Berlin Thunder,,
-14,2026-08-22 18:00 CET,Firenze Red Lions,Vienna Vikings,,
-14,2026-08-23 13:00 CET,Alpine Rams,Paris Lights,,
-14,2026-08-23 16:10 CET,Rhein Fire,London Warriors,,
-98,2026-08-29 00:00 CET,Semifinalist,Semifinalist,,
-98,2026-08-30 15:10 CET,Semifinalist,Rhein Fire,,
-99,2026-09-06 15:30 CET,Finalist,Finalist,,
+14,2026-08-22 15:00 CET,Panthers Wroclaw,Berlin Thunder,36,33
+14,2026-08-22 18:00 CET,Firenze Red Lions,Vienna Vikings,17,63
+14,2026-08-22 20:00 CET,Rhein Fire,London Warriors,40,30
+14,2026-08-23 13:00 CET,Alpine Rams,Paris Lights,34,28
+98,2026-08-29 18:00 CET,London Warriors,Vienna Vikings,4,71
+98,2026-08-30 18:00 CET,Wroclaw Panthers,Rhein Fire,41,40
+99,2026-09-06 15:30 CET,Wroclaw Panthers,Vienna Vikings,68,5
