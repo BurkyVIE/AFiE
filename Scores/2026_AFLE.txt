@@ -49,4 +49,4 @@ Week,Kickoff,Guest,Home,Pts_G,Pts_H
 14,2026-08-23 13:00 CET,Alpine Rams,Paris Lights,34,28
 98,2026-08-29 18:00 CET,London Warriors,Vienna Vikings,4,71
 98,2026-08-30 18:00 CET,Wroclaw Panthers,Rhein Fire,41,40
-99,2026-09-06 15:30 CET,Wroclaw Panthers,Vienna Vikings,68,5
+99,2026-09-06 15:30 CET,Wroclaw Panthers,Vienna Vikings,5,68
