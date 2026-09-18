@@ -7,6 +7,18 @@ present <- 2026L
 ## Complete list of Franchise, Team, ... by Season
 teamdata <- tribble(~Franchise, ~Team, ~League, ~Conference, ~Division, ~Home,
 ## ACTIVE Franchises ----
+### Eagles ----
+"Eagles",
+tribble(~Team, ~Season,
+        "Warsaw Eagles", 2027L:present),
+tribble(~League, ~Season,
+        "AFLE", 2027L:present),
+tribble(~Conference, ~Season,
+        NA, NA),
+tribble(~Division, ~Season,
+        NA, NA),
+tribble(~Location, ~Lat, ~Long, ~Season,
+        "Warszawa, PL", 52.23, 21.011111, 2027L:present),
 ### Fire ----
 "Fire",
 tribble(~Team, ~Season,
